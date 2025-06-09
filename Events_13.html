@@ -1,0 +1,76 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button id="btn">CLICK ME</button>
+<script>
+const btn =document.getElementById("btn");
+btn.addEventListener("click",function(){
+    alert("button clicked!");
+});
+
+</script>
+</body>
+</html> -->
+
+<!-- 📌 Breakdown:
+addEventListener("click", function) → yeh listener lagata hai button ke click hone par.
+
+Function ke andar jo bhi code hai, woh event hone par chalega.
+
+✅ Common Event Types:
+Event Type	When it fires
+"click"	Jab user element pe click kare
+"mouseover"	Cursor kisi element pe aaye
+"mouseout"	Cursor element se nikal jaye
+"keydown"	Keyboard ki key dabaye
+"submit"	Form submit ho
+"change"	Input ya select box mein change -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="nameInput" placeholder="type name" />
+    <p id="output"></p>
+    <script>
+        const input = document.getElementById("nameInput");
+        const output = document.getElementById("output");
+
+        input.addEventListener("input", function () {
+            output.textContent = "HELLO " + input.value;
+        });
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <select id="colorSelect">
+    <option value="RED">RED</option>
+    <option value="GREEN">GREEN</option>
+    <option value="BLUE">BLUE</option>
+   </select>
+   <p id="selectedColor">color</p>
+   <script>
+    document.getElementById("colorSelect")
+    .addEventListener("change",function(){
+        document.getElementById("selectedColor").textContent = `You choose: ${this.value}`;
+    });
+   </script>
+</body>
+</html>
