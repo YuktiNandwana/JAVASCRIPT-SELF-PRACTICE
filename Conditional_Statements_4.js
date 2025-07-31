@@ -33,14 +33,42 @@
 // 4] switch Statement: Allows you to test multiple conditions based on the value of a variable.
 
 
-let day = 2;
-switch (day) {
-    case 1:
-        console.log("Monday");
+// let day = 2;
+// switch (day) {
+//     case 1:
+//         console.log("Monday");
+//         break;
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+//     default:
+//         console.log("Other day");
+// }
+
+
+// let girl = yukti;
+// switch(girl){
+//     case 1:
+//         console.log("richa");
+//         break;
+//         case2
+// }
+
+let fruits = "mango";
+switch(fruits){
+
+    case "apple":
+        console.log("apple is red");
         break;
-    case 2:
-        console.log("Tuesday");
-        break;
-    default:
-        console.log("Other day");
+
+        case "banana":
+            console.log("bananna is yellow");
+            break;
+
+            case "mango":
+                console.log("mango is sour and sweet i like to eat it everyday in different forrm");
+                break;
+
+                default:
+                    console.log("unknown fruits");
 }

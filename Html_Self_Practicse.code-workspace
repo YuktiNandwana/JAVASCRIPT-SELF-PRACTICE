@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../Html_Self_Practicse"
+		},
+		{
+			"path": "../css_SelfPractisce"
+		},
+		{
+			"path": "../Bootstrap_SelfPractisce"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Javascript_Self_Practice"
+	}
+}

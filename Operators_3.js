@@ -32,10 +32,11 @@
 // <= (Less than or equal to)
 
 
-// let a=70;
-// let b=10;
+let a=70;
+let b=10;
 // console.log(a==b);
-// console.log(a===b);  (compares both value and type)
+ console.log(a===b);  
+//  (compares both value and type)
 
 
                // Logical Operators: These are used to combine multiple conditions.
@@ -44,11 +45,11 @@
 //    || (Logical OR)  
 //    ! (Logical NOT)
 
-let a = true;
-let b = false;
-console.log(a && b); // false
+// let a = true;
+// let b = false;
+// console.log(a && b); // false
 // The AND operator (&&) returns true only if both operands are true. If either of the operands is false, the result will be false.
-console.log(a || b); // true
+// console.log(a || b); // true
 // The OR operator (||) returns true if at least one operand is true. If both operands are false, the result will be false.
-console.log(!a); // false (not true)
+// console.log(!a); // false (not true)
 // NOT operator (!) reverses =If the value is true, it becomes false, and if it is false, it becomes true.

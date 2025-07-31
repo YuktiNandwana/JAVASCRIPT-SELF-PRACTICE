@@ -163,3 +163,5 @@ console.log(rectangle.calculateArea(20*3));
 
 // It returns the area by multiplying length * width.
 
+                                                    
+

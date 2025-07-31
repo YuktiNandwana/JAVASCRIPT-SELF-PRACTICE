@@ -1,0 +1,71 @@
+ <!-- What are Events in JavaScript?
+Events wo actions hote hain jo user karta hai ya web page mein automatically hote hain. Jaise:
+
+Button click karna
+
+Mouse le jaana kisi element ke upar
+
+Keyboard se key press karna
+
+Page load hona
+
+JavaScript use karta hai event listeners jo yeh dekhte hain ki koi event hua ya nahi, aur fir uske response mein koi function run karte hain.
+
+🎯 Real-Life Example:
+Socho tum ek doorbell ho. Jab koi button dabata hai (event), tum tring tring bajti ho (function call hota hai).
+👉 Yahaan button dabana = event
+👉 tring tring = JavaScript function
+
+📦 Common Events:
+Event Name	Kab hota hai
+onclick	Jab element pe click hota hai
+onmouseover	Jab mouse le jaate ho element ke upar
+onmouseout	Jab mouse nikalte ho element se
+onkeydown	Jab keyboard ki press hoti hai
+onload	Jab page pura load ho jata hai
+
+🔧 Kaise use karte hain?
+✅ Method 1: HTML ke andar
+html
+Copy
+Edit
+<button onclick="sayHi()">Click Me</button>
+js
+Copy
+Edit
+function sayHi() {
+  alert("Hello Yukti! 👋");
+}
+✅ Method 2: JavaScript se add karna (Recommended)
+html
+Copy
+Edit
+<button id="myBtn">Click Here</button>
+js
+Copy
+Edit
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert("You clicked the button!");
+});
+🧠 Task Time: Try this now
+HTML
+
+html
+Copy
+Edit
+<button onclick="changeColor()">Change BG Color</button>
+JavaScript
+
+js
+Copy
+Edit
+function changeColor() {
+  document.body.style.backgroundColor = "lightblue";
+}
+💬 Feel karne ka tareeka:
+Socho ki har button, har mouse ka move, ek signal bhejta hai.
+
+Tumhara likha JavaScript code sun raha hota hai ye signals (Events).
+
+Jab signal milta hai → JavaScript kuch kaam karta hai.
+ -->

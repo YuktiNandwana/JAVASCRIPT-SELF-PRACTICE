@@ -9,8 +9,8 @@
 
 
 //b] Accessing individual characters:
-// let name="vansh chandila";
-// console.log(name[2]);
+let name="vansh chandila";
+console.log(name[2]);
 
 
                            // 2] String Methods:
@@ -42,11 +42,11 @@
 // console.log(msg.slice(5, 10));//output : cript
 
 //e] .replace(old value,new value)
-let cake="blackforest cake";
-console.log(cake.replace("cake","chocolava"));
+// let cake="blackforest cake";
+// console.log(cake.replace("cake","chocolava"));
 
 
 // f] .indexOf(searchValue) – Finds the first occurrence of searchValue in the string and returns the index.
-let delhi="delhi is the capital of india";
-console.log(delhi.indexOf("the"));
-console.log(delhi.indexOf("india"));//space  ka bhi count hota hai index 
+// let delhi="delhi is the capital of india";
+// console.log(delhi.indexOf("the"));
+// console.log(delhi.indexOf("india"));//space  ka bhi count hota hai index 

@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DOM Events Example</title>
+  <style>
+    #hoverBox {
+      width: 300px;
+      height: 150px;
+      background-color: yellow;
+      border: 2px solid black;
+      text-align: center;
+      line-height: 150px;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 50px auto;
+      transition: background-color 0.5s;
+    }
+    #myInput {
+      display: block;
+      margin: 20px auto;
+      padding: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align: center;">DOM EVENTS</h1>
+
+  <!-- Mouseover and Mouseout Events -->
+  <div id="hoverBox"
+       onmouseover="changeColor()"
+       onmouseout="resetColor()">Hover mouse here</div>
+
+  <!-- Keydown Event -->
+  <input type="text" id="myInput" placeholder="Type something..." onkeydown="keyPressed(event)" />
+
+  <script>
+    const box = document.getElementById("hoverBox");
+
+    function changeColor() {
+      box.style.backgroundColor = "lightgreen";
+      box.innerText = "Mouse is inside me - said the box";
+    }
+
+    function resetColor() {
+      box.style.backgroundColor = "yellow";
+      box.innerText = "Hover mouse here";
+    }
+
+    function keyPressed(event) {
+      console.log("Key pressed inside input box: " + event.key);
+    }
+  </script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Key Press Example</title>
+  <style>
+    #output {
+      margin-top: 20px;
+      font-size: 20px;
+      color: darkblue;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Press any key inside the input box:</h2>
+  <input type="text" onkeydown="keyPressed(event)" placeholder="Type here...">
+
+  <div id="output"></div>
+
+  <script>
+    function keyPressed(event) {
+      // Yeh line screen par dikhane ke liye hai
+      document.getElementById("output").innerText = "You pressed: " + event.key;
+
+      // Console par bhi dikhe
+      console.log("You pressed: " + event.key);
+    }
+  </script>
+
+</body>
+</html>

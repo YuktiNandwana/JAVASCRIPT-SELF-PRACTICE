@@ -2,7 +2,7 @@ var a=20;  //old way
 let b=40; //modern way
 b=100;
 const c=70;  //fixed  ; cannot be change 
-b=50;
+
 console.log(c,b,a);
 
 
@@ -26,11 +26,11 @@ console.log(c,b,a);
                                        // 🔁 Case Sensitivity:
 
 // JavaScript is case-sensitive, so 'myName' and 'MyName' are different variables.
-// let myName = "Ravi";
-// let MyName = "Amit";
+let myName = "Ravi";
+let MyName = "Amit";
 
-// console.log(myName);    // Output: Ravi
-// console.log(MyName);    // Output: Amit
+console.log(myName);    // Output: Ravi
+console.log(MyName);    // Output: Amit
 
 // ✅ Both are different variables because JS is case-sensitive
 

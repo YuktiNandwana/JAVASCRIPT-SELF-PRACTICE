@@ -1,4 +1,4 @@
-    // FUNCTIONS are object in jaavscript
+                                                   // FUNCTIONS are object in jaavscript
 
 //1 SYNTAX
 // function functionName() {
@@ -128,7 +128,78 @@
 // let NAME1=GREET("kearl");
 // console.log(NAME1);
 
-function sayHi(){
-  console.log("HI")
+// function sayHi(){
+//   console.log("HI")
+// }
+// sayHi();//call kroge tbhi output show hoga
+
+
+// function sayby(){
+//   console.log("bye everyone");
+// }
+//   sayby();
+
+// function favCake(){
+//   console.log("chocolate bisaatta ");
+// }
+// favCake();
+
+
+// function square(a){
+//   return(a*a);
+// }
+// console.log(square(10));
+
+// function cube(n){
+//   return (n*n*n);
+// }
+// console.log(cube(4));
+
+// function isEven(num){
+//   return num%2===0;
+// }
+// console.log(isEven(98));
+// console.log(isEven(110));
+
+// const add = (a,b)=> a+b;
+// console.log(add(7,2));  //ARROW FUNCITONS IN 
+
+// let MULTIPLY = (x,y,z)=>x*y*z;
+// console.log(MULTIPLY(6,2,3));
+
+// let subtract = (a,b)=>a-b;
+// console.log(subtract(12,10));
+
+// let modulo=(x,y)=>x%y;
+// console.log(modulo(123,2))
+
+// function add(a,b){
+//   return (a+b);
+
+// }
+// console.log(add(2025,5));
+
+// function multiply =>(a*b){
+//   console.log(multiply());
+// }
+
+
+
+
+//-----------------------function deep dive --------------------------------------------------------///
+
+
+// var a=100;
+// function fun(){
+//   console.log(a);
+//   console.log("INSIDE FUN");
+// }
+// fun();
+
+// console.log(a);
+// var a = 10;
+
+greet();
+function greet() {
+  console.log("Hello!");
 }
-sayHi();//call kroge tbhi output show hoga

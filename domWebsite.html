@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 80%;
+    margin: 15px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  h1, h2 {
+    color: #b30059;
+  }
+
+  p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #333;
+  }
+</style>
+
+</head>
+<body>
+  <ol>
+    <li><a href="www.googole.com">visit google</a></li>
+    <li></li>
+  </ol>
+    <p class ="oopy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum a quiquisquam doloribus rem, aliquid iusto illo dignissimos earum porro provident. Id atque enim dignissimos ipsa nesciunt animi, officiis praesentium, ratione distinctio sit aperiam omnis totam vero consequatur corporis ad debitis facere? Odio dicta consequuntur, autem accusantium libero ratione ipsa deleniti aut ullam unde dolor, eum et? Reprehenderit molestiae distinctio itaque in! Quam iusto natus error tempore dolor voluptatum <span style="display :none;">MY NAME IS YUKTI NANDWANA. </span>perspiciatis omnis! Magnam obcaecati unde earum alias pariatur ut et necessitatibus soluta praesentium quos, similique consequuntur ipsa maiores culpa! Est animi hic facilis ipsam labore pariatur. Earum, illo molestias facere, maxime soluta, harum porro voluptatem quo veniam beatae accusamus labore nesciunt aliquid vel impedit repellat nemo quasi ex recusandae delectus. Iure eius itaque possimus est, suscipit quas necessitatibus nam reprehenderit, optio aut omnis? Harum dolore reprehenderit ab itaque maxime ad commodi asperiores ea temporibus non, recusandae vel labore impedit, eius dolor minus laudantium neque assumenda! Minus et accusamus, repellendus illo exercitationem</p>
+    <section>  </section>
+   <h4 id="purvansh">piegon</h4>
+   <img src="https://images.pexels.com/photos/2407721/pexels-photo-2407721.jpeg" alt="bhai" id="lolni">
+<h1>vaishnodevi bhavan</h1>
+    <img src="https://static.independent.co.uk/2022/01/01/05/bha.jpg?quality=75&width=1200&auto=webp"alt="maa darbar">
+<h2 id="lacho">darsham maa</h2>
+<img src="https://www.tourmyindia.com/states/jammu-kashmir/image/mata-vaishno-devi2.jpg">alt ="maa">
+<h2 id ="jiju">tour</h2>
+<img src="https://www.indiapilgrimtours.com/articles/wp-content/uploads/2019/04/palkies.jpg" alt="tourr">
+<img src="bulb.gif" alt="" width ="100px" id="image">
+<script>
+        //  1   welcome alert
+    window.onload=function(){
+        alert("🙏 Jai Mata Di! Welcome to Vaishno Devi Darshan 🙏")
+    };
+// 2. hover zoom effect
+const images=document.querySelectorAll("img");
+// har image ke saath kaam karo
+images.forEach(function(img) {
+    img.style.transition = "transform 0.3s ease";
+    img.addEventListener("mouseover",()=>{
+        img.style.transform="scale(1.1)";
+    });
+    img.addEventListener("mouseout",()=>{
+        img.style.transform="scale(1)";
+    });
+});
+//3. click on heading to show blessings.
+    const heading=document.querySelector("h1");
+   heading.style.cursor="pointer";
+   heading.addEventListener("click",()=>{
+    alert("mata rani bless you always")
+
+   });
+
+   //4. scroll to bhavan section after 3 sec
+
+  //  setTimeout(() => {
+  //   heading.scrollIntoView({behavior:"smoooth"});
+  //  },3000);
+
+   //5 backgound color changes
+     // 5. Background color changer
+  let colors = ["#fef6e4", "#fceaff", "#e6f7ff", "#fff9db"];
+  let body = document.body;
+  setInterval(() => {
+    let color = colors[Math.floor(Math.random() * colors.length)];
+    body.style.backgroundColor = color;
+  }, 8000); // Change every 8 seconds
+
+ //getAttribute  = used to read which is showing in browser
+ //1. get img of src Value
+    // let img=document.querySelector("img")
+    // let imgSrc =img.getAttribute("src");
+    // console.log("current img src is:" , imgSrc)
+
+  
+</script>
+</body>
+</html>

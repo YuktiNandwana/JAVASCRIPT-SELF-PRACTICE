@@ -40,11 +40,11 @@
 
 
 // Task 3️⃣: Function Expression — Greet Someone
-const Greet = function(name) {
-    console.log("Good Morning, " + name + " 🌞");
-  };
+// const Greet = function(name) {
+//     console.log("Good Morning, " + name + " 🌞");
+//   };
   
-  Greet("Vansh Chandila"); // ✅ Output: Good Morning, Vansh Chandila 🌞
+//   Greet("Vansh Chandila"); // ✅ Output: Good Morning, Vansh Chandila 🌞
   
 
 //   ✨ Summary:
@@ -61,3 +61,12 @@ const Greet = function(name) {
 // 🧠 Golden Rule:
 // 🗣️ Function Expression = Pehle likho, baad mein call karo
 // 🗣️ Function Declaration = Kahin bhi likho, pehle bhi call kar sakte ho
+
+
+
+
+
+// let sayhi=function(){
+//   console.log("hi cutieeeeeeeeeeeeeeeeeee");
+// }
+// sayhi();

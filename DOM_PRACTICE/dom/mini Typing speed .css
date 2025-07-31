@@ -1,0 +1,39 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e3ffe7, #d9e7ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#typing-box {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px dashed #333;
+  border-radius: 10px;
+  min-width: 300px;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+}
+
+#typing-box.colorful {
+  animation: pulse 0.3s;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
